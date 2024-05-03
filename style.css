@@ -366,3 +366,31 @@ body {
   font-size: 0.8rem;
   line-height: 1rem;
 }
+
+.testimonial-card {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 3px solid rgba(227, 218, 218, 0.18);
+  max-width: 33rem;
+}
+
+.image-user {
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.footer-icon {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-icon img {
+  width: 32px;
+  border: 1px solid #ffffff;
+}
+
+ul {
+  list-style: none;
+}
