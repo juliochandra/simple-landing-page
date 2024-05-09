@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "variables/color.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+// navbar
+#navbar {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* Add shadow */
+  margin-bottom: 8px;
+}
+.navbar {
+  justify-content: space-between;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64px;
+  padding: 8px;
+}
+
+.nav-menu-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+
+  font-size: 18px;
+  font-weight: 400;
+}
+
+// .menu-list {
+//   margin-right: 16px;
+// }
+
+.nav-menu-list .active {
+  font-weight: 700;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+  text-decoration: none;
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.btn {
+  padding: 8px 40px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: $light-color;
+  color: $primary-color;
+  border: $primary-color 1px solid;
+}
+
+.btn-primary:hover {
+  background-color: $primary-color;
+  color: $light-color;
+}
+
+.btn-primary:active {
+  background-color: $primary-color;
+  color: $light-color;
+  opacity: 0.7;
+}
+
+.btn-secondary {
+  background-color: $primary-color;
+  color: $light-color;
+  border: $primary-color 1px solid;
+}
+
+.btn-secondary:hover {
+  background-color: $light-color;
+  color: $primary-color;
+}
+
+.btn-secondary:active {
+  background-color: $light-color;
+  color: $primary-color;
+  opacity: 0.7;
+}
+
+// Let's Begins
+#letsbegins {
+  padding: 32px 0;
+}
+
+.lead {
+  margin-bottom: 24px;
+}
+
+.isBold {
+  font-weight: 700;
+}
+
+.letsbegins-header {
+  font-size: 72px;
+  margin-bottom: 32px;
+}
+
+.btn-play {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: $dark-color;
+  border: none;
+  background-color: $secondary-color;
+}
+
+.img-letsbegins {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+// What We Give
+#whatwegive {
+  padding: 32px 0;
+}
+
+#whatwegive h1 {
+  font-size: 48px;
+}
+
+#whatwegive .card {
+  max-width: 240px;
+  padding: 24px 16px;
+  margin: 16px;
+  border-radius: 8px;
+  background-color: $primary-color;
+  color: $light-color;
+}
+
+#whatwegive .card img {
+  background-color: $light-color;
+  border-radius: 100%;
+  padding: 8px;
+}
+
+#whatwegive .card h2 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+#whatwegive .card p {
+  font-size: 14px;
+  color: $secondary-color;
+}
+
+#whatwegive .prev-next {
+  margin: auto 100px auto auto;
+}
+
+#whatwegive .prev-next button {
+  border: none;
+  background-color: $light-color;
+}
+
+// Selected Course
+
+#selectedcourse {
+  padding: 32px 0;
+}
+
+.img-selectedcourse {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.selectedcourse-content {
+  padding: 16px;
+}
+
+.selectedcourse-content p {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.selectedcourse-content h2 {
+  font-size: 48px;
+}
+
+.selectedcourse-content .text-content {
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+.selectedcourse-content .row .col-4 {
+  text-align: center;
+}
+
+// available for you
+
+#availableForYou {
+  padding: 32px 0;
+}
+
+#availableForYou .card-course {
+  border-radius: 8px;
+  margin: 16px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+#availableForYou img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-course-content {
+  padding: 16px;
+}
+
+.course-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.course-header .text-header {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.course-footer {
+  font-size: 14px;
+  display: flex;
+  gap: 16px;
+  opacity: 0.7;
+}
+.course-info {
+  padding: 32px;
+}
+
+.course-text {
+  margin-bottom: 24px;
+}
+
+.course-title {
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.course-description {
+  font-size: 20px;
+  line-height: 32px;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+
+// testimonial
+
+.card-testimonial {
+  border-radius: 8px;
+  padding: 32px;
+  margin: 16px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-testimonial-user {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.card-testimonial .star {
+  margin-bottom: 16px;
+}
+
+.card-testimonial-review {
+  opacity: 0.7;
+  font-style: italic;
+}
+
+// footer
+#footer {
+  padding: 32px 0;
+  color: $light-color;
+}
+
+#footer p {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+#footer ul {
+  list-style: none;
+}
+.footer-social {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-social-icon {
+  border: 1px solid $light-color;
+}
+
+.footer-sitemap {
+  display: flex;
+  margin-left: 32px;
+  line-height: 32px;
+}
+
+@import "variables/flex.scss";
+@import "media/xl.scss";
+@import "media/l.scss";
+@import "media/md.scss";
+@import "media/s.scss";

@@ -1,0 +1,16 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "tugas landing page",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss/styles.scss:public/css/styles.css",
+    "sass:watch": "sass --no-source-map --watch scss/styles.scss:public/css/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.0"
+  }
+}
