@@ -1,0 +1,13 @@
+@media (max-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .btn {
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,83 @@
+// Define color variables
+$primary-color: #545be8;
+$secondary-color: #f5f5f5;
+$tertiary-color: #393e46;
+$success-color: #28a745;
+$info-color: #17a2b8;
+$warning-color: #f0c932;
+$danger-color: #dc3545;
+$light-color: #ffffff;
+$dark-color: #141e32;
+
+// Usage example
+.text-isPrimary {
+  color: $primary-color;
+}
+
+.bg-isPrimary {
+  background-color: $primary-color;
+}
+
+.text-isSecondary {
+  color: $secondary-color;
+}
+
+.bg-isSecondary {
+  background-color: $secondary-color;
+}
+
+.text-isTertiary {
+  color: $tertiary-color;
+}
+
+.bg-isTertiary {
+  background-color: $tertiary-color;
+}
+
+.text-isSuccess {
+  color: $success-color;
+}
+
+.bg-isSuccess {
+  background-color: $success-color;
+}
+
+.text-isInfo {
+  color: $info-color;
+}
+
+.bg-isInfo {
+  background-color: $info-color;
+}
+
+.text-isWarning {
+  color: $warning-color;
+}
+
+.bg-isWarning {
+  background-color: $warning-color;
+}
+
+.text-isDanger {
+  color: $danger-color;
+}
+
+.bg-isDanger {
+  background-color: $danger-color;
+}
+
+.text-isLight {
+  color: $light-color;
+}
+
+.bg-isLight {
+  background-color: $light-color;
+}
+
+.text-isDark {
+  color: $dark-color;
+}
+
+.bg-isDark {
+  background-color: $dark-color;
+}

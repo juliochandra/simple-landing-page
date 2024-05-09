@@ -1,0 +1,53 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  .nav-menu {
+    gap: 32px;
+  }
+
+  .nav-menu-list {
+    gap: 12px;
+  }
+
+  .nav-button {
+    gap: 12px;
+  }
+
+  // Let's Begins
+  .letsbegins-header {
+    font-size: 56px;
+    margin-bottom: 32px;
+  }
+
+  //   What We Give
+  #whatwegive .container .row {
+    justify-content: center;
+  }
+
+  #whatwegive .card {
+    max-width: 200px;
+    padding: 32px 12px;
+    margin: 12px;
+    border-radius: 8px;
+    background-color: $primary-color;
+    color: $light-color;
+  }
+
+  #whatwegive .card img {
+    background-color: $light-color;
+    border-radius: 100%;
+    padding: 4px;
+  }
+
+  #whatwegive .card h2 {
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+
+  #whatwegive .card p {
+    font-size: 12px;
+    color: $secondary-color;
+  }
+}

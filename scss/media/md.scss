@@ -1,0 +1,58 @@
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+
+    padding: 8px 16px;
+  }
+
+  // Let's Begins
+  .letsbegins-header {
+    font-size: 48px;
+    margin-bottom: 24px;
+  }
+
+  //   What We Give
+
+  #whatwegive .container .row {
+    justify-content: center;
+  }
+
+  #whatwegive .container .row .col-4 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  #whatwegive .container .row .col-8 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  #whatwegive .card {
+    max-width: 300px;
+    padding: 32px 12px;
+    margin: 12px;
+    border-radius: 8px;
+    background-color: $primary-color;
+    color: $light-color;
+  }
+
+  //   flex
+  .col-6 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  // Selected Course
+
+  .selectedcourse-content h2 {
+    font-size: 32px;
+  }
+
+  .selectedcourse-content .row .col-4 {
+    text-align: center;
+    font-size: 16px;
+  }
+}

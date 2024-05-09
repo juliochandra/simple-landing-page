@@ -1,0 +1,127 @@
+@media (max-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .icon-container {
+    display: flex;
+    align-items: center;
+    transform: rotate(90deg);
+  }
+
+  .icon-toggle {
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  // Let's Begins
+  .letsbegins-header {
+    font-size: 48px;
+    margin-bottom: 32px;
+  }
+
+  //   What We Give
+
+  #whatwegive .container .row {
+    justify-content: center;
+  }
+
+  #whatwegive .container .row .col-4 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  #whatwegive .container .row .col-8 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  #whatwegive .card {
+    max-width: 240px;
+    padding: 32px 12px;
+    margin: 12px;
+    border-radius: 8px;
+    background-color: $primary-color;
+    color: $light-color;
+  }
+
+  #whatwegive .card img {
+    background-color: $light-color;
+    border-radius: 100%;
+    padding: 4px;
+  }
+
+  #whatwegive .card h2 {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  #whatwegive .card p {
+    font-size: 16px;
+    color: $secondary-color;
+  }
+
+  #whatwegive .prev-next {
+    margin: auto;
+  }
+
+  // Selected Course
+
+  .selectedcourse-content h2 {
+    font-size: 40px;
+  }
+
+  .selectedcourse-content .row .col-4 {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  //    available for you
+  #availableForYou .container .row .col-7 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  #availableForYou .container .row .col-5 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  #footer .container .row .col-4 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  #footer .container .row .col-8 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-bottom: 16px;
+    font-size: 12px;
+  }
+
+  .footer-sitemap {
+    margin: 2px;
+    padding: 2px;
+    line-height: 22px;
+  }
+
+  .footer-sitemap .col-3 {
+    flex: 0 0 auto;
+    width: 50%;
+    margin-bottom: 16px;
+  }
+}

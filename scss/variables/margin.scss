@@ -1,0 +1,57 @@
+// margin
+
+// Define the base margin unit
+$baseMargin: 2px;
+
+// Loop to generate margin classes
+// for each number from 1 to 10
+// m
+@for $i from 1 through 10 {
+  .m-#{$i} {
+    margin: $baseMargin * $i;
+  }
+}
+
+// mx
+@for $i from 1 through 10 {
+  .mx-#{$i} {
+    margin-left: $baseMargin * $i;
+    margin-right: $baseMargin * $i;
+  }
+}
+
+// my
+@for $i from 1 through 10 {
+  .my-#{$i} {
+    margin-top: $baseMargin * $i;
+    margin-bottom: $baseMargin * $i;
+  }
+}
+
+// mt
+@for $i from 1 through 10 {
+  .mt-#{$i} {
+    margin-top: $baseMargin * $i;
+  }
+}
+
+// mb
+@for $i from 1 through 10 {
+  .mb-#{$i} {
+    margin-bottom: $baseMargin * $i;
+  }
+}
+
+// ms
+@for $i from 1 through 10 {
+  .ms-#{$i} {
+    margin-left: $baseMargin * $i;
+  }
+}
+
+// me
+@for $i from 1 through 10 {
+  .me-#{$i} {
+    margin-right: $baseMargin * $i;
+  }
+}

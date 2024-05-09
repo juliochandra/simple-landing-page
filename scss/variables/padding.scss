@@ -1,0 +1,57 @@
+// padding
+
+// Define the base padding unit
+$basePadding: 2px;
+
+// Loop to generate padding classes
+// for each number from 1 to 10
+// p
+@for $i from 1 through 10 {
+  .p-#{$i} {
+    padding: $basePadding * $i;
+  }
+}
+
+// px
+@for $i from 1 through 10 {
+  .px-#{$i} {
+    padding-left: $basePadding * $i;
+    padding-right: $basePadding * $i;
+  }
+}
+
+// py
+@for $i from 1 through 10 {
+  .py-#{$i} {
+    padding-top: $basePadding * $i;
+    padding-bottom: $basePadding * $i;
+  }
+}
+
+// pt
+@for $i from 1 through 10 {
+  .pt-#{$i} {
+    padding-top: $basePadding * $i;
+  }
+}
+
+// pb
+@for $i from 1 through 10 {
+  .pb-#{$i} {
+    padding-bottom: $basePadding * $i;
+  }
+}
+
+// ps
+@for $i from 1 through 10 {
+  .ps-#{$i} {
+    padding-left: $basePadding * $i;
+  }
+}
+
+// pe
+@for $i from 1 through 10 {
+  .pe-#{$i} {
+    padding-right: $basePadding * $i;
+  }
+}
